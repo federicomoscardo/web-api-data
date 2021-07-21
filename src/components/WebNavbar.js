@@ -9,7 +9,7 @@ function WebNavbar() {
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/community">Community</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
+                        <Nav.Link href="/products">Products</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
