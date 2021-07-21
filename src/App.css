@@ -1,0 +1,36 @@
+.home-greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  font-size: 200px;
+}
+
+.row-data{
+  padding: 10px 0;
+  border: 1px solid rgb(223, 223, 223);
+}
+
+.image-user{
+  width: 30px;
+  margin-right: 10px;
+}
+
+.table-title {
+  display: flex;
+  background-color: grey;
+  color: white;
+  font-weight: 600;
+  height: 40px;
+  align-items: center;
+}
+
+.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-product {
+  margin: 50px;
+  width: 18rem;
+}
