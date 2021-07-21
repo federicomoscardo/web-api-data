@@ -10,16 +10,23 @@ function App() {
   return (
     <Container fluid>
       <Router>
-        <WebNavbar></WebNavbar>
-          
         <Switch>
+
+          <Route path="/" exact>
+            <WebNavbar></WebNavbar>
+            <div className="home-greeting"><p>WELCOME!!</p></div>
+          </Route>
+
           <Route path="/community" exact>
+            <WebNavbar></WebNavbar>
             <Community />
           </Route>
 
           <Route path="/products" exact>
+            <WebNavbar></WebNavbar>
             <Products />
           </Route>
+
         </Switch>
       </Router>
       
